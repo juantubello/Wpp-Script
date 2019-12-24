@@ -1,3 +1,5 @@
 # Wpp-Script
-Script que permite desde el editor/consola enviar mensajes por whatsapp web el cual continua en bucle ahorrando que por cada mensaje a enviar sea necesario volver a iniciar sesión.
+Simple script, that with the help of `selenium` library, navigates `<HTML body>` of Whatsapp Web to send messages **N** times to specific target or group. 
 
+## Features
+- The code iterate in a `While loop` - so as a flag finishes it, there is no need to re-scan QR code every time you want to send a             message to a different Target or Group (this is only in the case that you did not run it again) 
